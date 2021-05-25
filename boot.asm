@@ -5,6 +5,10 @@ mov ds, ax
 
 mov dh, 0
 
+mov ah, 0
+mov al, 0x03
+int 0x10
+
 loop:
 mov ah, 0x13
 mov al, 0x01
